@@ -1,5 +1,0 @@
-import java.util.Scanner;
-
-public class billCalculate {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
