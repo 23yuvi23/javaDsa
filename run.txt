@@ -1,0 +1,8 @@
+javac FileName.java
+java ClassName
+
+
+eg
+
+javac Factorial.java              //FileName
+java Factorial                   //ClassName

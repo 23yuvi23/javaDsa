@@ -26,4 +26,4 @@ public class first{
         printAgain();           //static function called with the help of direct function()
         
     }
- }\\
+ }

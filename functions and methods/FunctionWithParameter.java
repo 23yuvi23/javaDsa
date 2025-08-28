@@ -11,10 +11,8 @@ return statement
 import java.util.Scanner;
 public class FunctionWithParameter {
 
-    public static int CalculateSum(){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+    public static int CalculateSum(int a , int b){  //parameters or formal parameters
+       
         int sum = a+b;
         System.out.println(sum);
         return sum;
@@ -22,7 +20,10 @@ public class FunctionWithParameter {
 }
 
     public static void main(String[] args) {
-        CalculateSum();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        CalculateSum(a,b);                     // a b value called arguments or actual parameters
     }
     
 }
