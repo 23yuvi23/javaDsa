@@ -1,4 +1,4 @@
-public class hollowRectangle{
+public class ollowRectangle{
 
     public static void rectangle(int totRows, int totCols) {
         //outerloop
